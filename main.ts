@@ -38,35 +38,35 @@ input.onGesture(Gesture.TiltLeft, function () {
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     if (aktuelle_stelle == 1) {
-        aktuelle_stelle += 1
+        aktuelle_stelle = 2
         stelle1 = Alphabet_warum
     } else {
         if (aktuelle_stelle == 2) {
-            aktuelle_stelle += 1
+            aktuelle_stelle = 3
             stelle2 = Alphabet_warum
         } else {
             if (aktuelle_stelle == 3) {
-                aktuelle_stelle += 1
+                aktuelle_stelle = 4
                 stelle3 = Alphabet_warum
             } else {
                 if (aktuelle_stelle == 4) {
-                    aktuelle_stelle += 1
+                    aktuelle_stelle = 5
                     stelle4 = Alphabet_warum
                 } else {
                     if (aktuelle_stelle == 5) {
-                        aktuelle_stelle += 1
+                        aktuelle_stelle = 6
                         stelle5 = Alphabet_warum
                     } else {
                         if (aktuelle_stelle == 6) {
-                            aktuelle_stelle += 1
+                            aktuelle_stelle = 7
                             stelle6 = Alphabet_warum
                         } else {
                             if (aktuelle_stelle == 7) {
-                                aktuelle_stelle += 1
+                                aktuelle_stelle = 8
                                 stelle7 = Alphabet_warum
                             } else {
                                 if (aktuelle_stelle == 8) {
-                                    aktuelle_stelle += 1
+                                    aktuelle_stelle = 9
                                     stelle8 = Alphabet_warum
                                 }
                             }
@@ -193,35 +193,35 @@ aktuelle_stelle = 1
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
         if (aktuelle_stelle == 17) {
-            aktuelle_stelle += 1
+            aktuelle_stelle = 18
             stelle17 = Alphabet_warum
         } else {
             if (aktuelle_stelle == 18) {
-                aktuelle_stelle += 1
+                aktuelle_stelle = 19
                 stelle18 = Alphabet_warum
             } else {
                 if (aktuelle_stelle == 19) {
-                    aktuelle_stelle += 1
+                    aktuelle_stelle = 20
                     stelle19 = Alphabet_warum
                 } else {
                     if (aktuelle_stelle == 20) {
-                        aktuelle_stelle += 1
+                        aktuelle_stelle = 21
                         stelle20 = Alphabet_warum
                     } else {
                         if (aktuelle_stelle == 21) {
-                            aktuelle_stelle += 1
+                            aktuelle_stelle = 22
                             stelle21 = Alphabet_warum
                         } else {
                             if (aktuelle_stelle == 22) {
-                                aktuelle_stelle += 1
+                                aktuelle_stelle = 23
                                 stelle22 = Alphabet_warum
                             } else {
                                 if (aktuelle_stelle == 23) {
-                                    aktuelle_stelle += 1
+                                    aktuelle_stelle = 24
                                     stelle23 = Alphabet_warum
                                 } else {
                                     if (aktuelle_stelle == 24) {
-                                        aktuelle_stelle += 1
+                                        aktuelle_stelle = 25
                                         stelle24 = Alphabet_warum
                                     } else {
                                     	
@@ -237,37 +237,37 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
-        if (aktuelle_stelle == 9) {
-            aktuelle_stelle += 1
-            stelle9 = Alphabet_warum
+        if (aktuelle_stelle == 25) {
+            aktuelle_stelle = 26
+            stelle25 = Alphabet_warum
         } else {
-            if (aktuelle_stelle == 10) {
-                aktuelle_stelle += 1
-                stelle10 = Alphabet_warum
+            if (aktuelle_stelle == 26) {
+                aktuelle_stelle = 27
+                stelle26 = Alphabet_warum
             } else {
-                if (aktuelle_stelle == 11) {
-                    aktuelle_stelle += 1
-                    stelle11 = Alphabet_warum
+                if (aktuelle_stelle == 27) {
+                    aktuelle_stelle = 28
+                    stelle27 = Alphabet_warum
                 } else {
-                    if (aktuelle_stelle == 12) {
-                        aktuelle_stelle += 1
-                        stelle12 = Alphabet_warum
+                    if (aktuelle_stelle == 28) {
+                        aktuelle_stelle = 29
+                        stelle28 = Alphabet_warum
                     } else {
-                        if (aktuelle_stelle == 13) {
-                            aktuelle_stelle += 1
-                            stelle13 = Alphabet_warum
+                        if (aktuelle_stelle == 29) {
+                            aktuelle_stelle = 30
+                            stelle29 = Alphabet_warum
                         } else {
-                            if (aktuelle_stelle == 14) {
-                                aktuelle_stelle += 1
-                                stelle14 = Alphabet_warum
+                            if (aktuelle_stelle == 30) {
+                                aktuelle_stelle = 31
+                                stelle30 = Alphabet_warum
                             } else {
-                                if (aktuelle_stelle == 15) {
-                                    aktuelle_stelle += 1
-                                    stelle15 = Alphabet_warum
+                                if (aktuelle_stelle == 31) {
+                                    aktuelle_stelle = 32
+                                    stelle31 = Alphabet_warum
                                 } else {
-                                    if (aktuelle_stelle == 16) {
-                                        aktuelle_stelle += 1
-                                        stelle16 = Alphabet_warum
+                                    if (aktuelle_stelle == 32) {
+                                        aktuelle_stelle = 33
+                                        stelle32 = Alphabet_warum
                                     } else {
                                     	
                                     }
@@ -282,37 +282,37 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
-        if (aktuelle_stelle == 25) {
-            aktuelle_stelle += 1
-            stelle25 = Alphabet_warum
+        if (aktuelle_stelle == 9) {
+            aktuelle_stelle = 10
+            stelle9 = Alphabet_warum
         } else {
-            if (aktuelle_stelle == 26) {
-                aktuelle_stelle += 1
-                stelle26 = Alphabet_warum
+            if (aktuelle_stelle == 10) {
+                aktuelle_stelle = 11
+                stelle10 = Alphabet_warum
             } else {
-                if (aktuelle_stelle == 27) {
-                    aktuelle_stelle += 1
-                    stelle27 = Alphabet_warum
+                if (aktuelle_stelle == 11) {
+                    aktuelle_stelle = 12
+                    stelle11 = Alphabet_warum
                 } else {
-                    if (aktuelle_stelle == 28) {
-                        aktuelle_stelle += 1
-                        stelle28 = Alphabet_warum
+                    if (aktuelle_stelle == 12) {
+                        aktuelle_stelle = 13
+                        stelle12 = Alphabet_warum
                     } else {
-                        if (aktuelle_stelle == 29) {
-                            aktuelle_stelle += 1
-                            stelle29 = Alphabet_warum
+                        if (aktuelle_stelle == 13) {
+                            aktuelle_stelle = 14
+                            stelle13 = Alphabet_warum
                         } else {
-                            if (aktuelle_stelle == 30) {
-                                aktuelle_stelle += 1
-                                stelle30 = Alphabet_warum
+                            if (aktuelle_stelle == 14) {
+                                aktuelle_stelle = 15
+                                stelle14 = Alphabet_warum
                             } else {
-                                if (aktuelle_stelle == 31) {
-                                    aktuelle_stelle += 1
-                                    stelle31 = Alphabet_warum
+                                if (aktuelle_stelle == 15) {
+                                    aktuelle_stelle = 16
+                                    stelle15 = Alphabet_warum
                                 } else {
-                                    if (aktuelle_stelle == 32) {
-                                        aktuelle_stelle += 1
-                                        stelle32 = Alphabet_warum
+                                    if (aktuelle_stelle == 16) {
+                                        aktuelle_stelle = 17
+                                        stelle16 = Alphabet_warum
                                     } else {
                                     	
                                     }
