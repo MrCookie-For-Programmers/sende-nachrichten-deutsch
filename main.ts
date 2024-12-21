@@ -38,18 +38,22 @@ input.onGesture(Gesture.TiltLeft, function () {
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     if (aktuelle_stelle == 1) {
+        basic.pause(100)
         aktuelle_stelle = 2
         stelle1 = Alphabet_warum
     } else {
         if (aktuelle_stelle == 2) {
+            basic.pause(100)
             aktuelle_stelle = 3
             stelle2 = Alphabet_warum
         } else {
             if (aktuelle_stelle == 3) {
+                basic.pause(100)
                 aktuelle_stelle = 4
                 stelle3 = Alphabet_warum
             } else {
                 if (aktuelle_stelle == 4) {
+                    basic.pause(100)
                     aktuelle_stelle = 5
                     stelle4 = Alphabet_warum
                 } else {
