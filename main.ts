@@ -490,6 +490,10 @@ basic.forever(function () {
             . . . . .
             . . . . .
             `)
+    } else if (Alphabet_warum == 42) {
+        basic.showString("/")
+    } else {
+    	
     }
 })
 basic.forever(function () {
@@ -518,8 +522,8 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (Alphabet_warum >= 42) {
-        Alphabet_warum = 41
+    if (Alphabet_warum >= 43) {
+        Alphabet_warum = 42
         music.play(music.createSoundExpression(
         WaveShape.Sine,
         276,
